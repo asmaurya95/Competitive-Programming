@@ -1,4 +1,4 @@
-# Algorithm-Implementations
-This is the implementation of well known basic algorithms .
-It covers most of algorithms which are taught in Indian Universities.
-All the programs are written in C / C++ .
+# ACM ICPC Handbook
+This contains almost implementation of Algorithms, from basic to complex ones.
+This repo is supposed to be used as an ACM ICPC Handbook.
+Code could be in C/C++/Java/Python.
