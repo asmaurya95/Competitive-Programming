@@ -1,21 +1,21 @@
 //bubbleSorting
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 int main()
 {
-		int n;
+		long int n;
 		cin>>n;
-		int ar[n];
-		for(int i=0;i<n;i++)
+		long int ar[n];
+		for(long int i=0;i<n;i++)
 		{
 			cin>>ar[i];
 		}
-		int temp;
-		for(int i=0;i<n-1;i++)
+		long int temp;
+		for(long int i=0;i<n-1;i++)
 		{
-			for(int j=0;j<n-i-1;j++)
+			for(long int j=0;j<n-i-1;j++)
 			{
-				if(ar[j]>ar[j+1])
+				if(ar[j]>ar[j+1]) //then Swap the values
 				{
 					temp=ar[j+1];
 					ar[j+1]=ar[j];
@@ -23,7 +23,8 @@ int main()
 				}
 			}
 		}
-		for(int i=0;i<n;i++)
+		//Printing Results of Sorted List
+		for(long int i=0;i<n;i++)
 		{
 			cout<<ar[i]<<"\t";
 		}
