@@ -15,4 +15,4 @@
 
 ## Time Complexity
 
-The Worst-case time Complexity of LInear Search is O(n).
+The Worst-case time Complexity of Linear Search is O(n).
