@@ -38,9 +38,13 @@ Partition(A,p,r)
 ##Complexity
   
 ###Time Complexity
+
 Best Case: O(nlogn)
+
 Average Case: O(nlogn)
+
 Worst Case: O(n^2) 
   
 ###Space Complexity
+
 Quick Sort has a space complexity of O(logn)  
