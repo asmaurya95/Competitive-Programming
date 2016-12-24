@@ -1,7 +1,7 @@
 #Quick Sort
 
 Quick Sort is a sorting algorithm based on Divide & Conquer approach
-The Algorithm is described below. It consists of two parts as described.
+The Algorithm is described below. It consists of two parts as described below.
 
 ##Algorithm
 
@@ -22,3 +22,13 @@ Partition(A,p,r)
       then exchange A[i] with A[j]
   exchange A[i] with A[p] //This will put the Pivot Element to it's correct spot
   return i //The position of Pivot  
+  
+##Complexity
+  
+###Time Complexity
+Best Case: O(nlogn)
+Average Case: O(nlogn)
+Worst Case: O(n^2) 
+  
+###Space Complexity
+Quick Sort has a space complexity of O(logn)
