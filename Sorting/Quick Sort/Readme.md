@@ -10,7 +10,7 @@ The Algorithm is described below. It consists of two parts as described below.
 Quicksort(A,p,r) //A:list, p:starting position, q:ending position
 
 if p<r then
-
+  
   q=Partition(A,p,r)  //Calling Partition to select a Pivot and partition the list A
 
   Quicksort(A,p,q-1)
