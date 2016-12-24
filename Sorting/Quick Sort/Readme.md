@@ -9,13 +9,13 @@ The Algorithm is described below. It consists of two parts as described below.
 
 Quicksort(A,p,r) //A:list, p:starting position, q:ending position
 
--if p<r then
++  if p<r then
   
-  -q=Partition(A,p,r)  //Calling Partition to select a Pivot and partition the list A
++   Partition(A,p,r)  //Calling Partition to select a Pivot and partition the list A
 
-  -Quicksort(A,p,q-1)
++   Quicksort(A,p,q-1)
 
-  -Quicksort(A,q+1,r)
++   Quicksort(A,q+1,r)
 
 Partition(A,p,r)
 
