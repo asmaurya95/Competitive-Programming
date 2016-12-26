@@ -23,19 +23,19 @@ The implementation could be done in two ways:
 
 GREEDY-ACTIVITY-SELECTOR (s , f)  // s and f denote the starting and finishing times of the sorted list of activities
 
-1 n = s.length 
+1. n = s.length 
 
-2 A = {a1}  // Selected first activity  
+2. A = {a1}  // Selected first activity  
 
-3 k = 1     // This Variable is used to highlight the activity that was last selected
+3. k = 1     // This Variable is used to highlight the activity that was last selected
 
-4 for m=2 to n run loop,
+4. for m=2 to n run loop,
 
-5     if s[m] >= f[k]
+5.     if s[m] >= f[k]
 
-6         A = A U {m'th activity} // Added m'th Activity to the list of selected activities
+6.         A = A U {m'th activity} // Added m'th Activity to the list of selected activities
 
-7         k = m
+7.         k = m
 
-8 return A 
+8. return A 
 
