@@ -1,7 +1,9 @@
 # How to set/turn on j'th bit 
 
 To set/turn on the j-th item (0-based indexing) of the set,
-use the bitwise OR operation S |= (1 << j) , where S is the given Decimal Number .
+use the bitwise OR operation S |= (1 << j) , where S is the given Decimal Number . 
+
+Note : 0 based indexing starts from the right i.e. the least significant bit .
 
 ## Example 
 
