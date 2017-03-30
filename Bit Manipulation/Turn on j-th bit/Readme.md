@@ -6,6 +6,9 @@ use the bitwise OR operation S |= (1 << j) , where S is the given Decimal Number
 ## Example 
 
 S = 34 (base 10) =  100010 (base 2)
+
 j = 3, 1 << j =     001000 <- bit ‘1’ is shifted to the left 3 times
+
                    -------- OR (true if either of the bits is true)
+                   
 S = 42 (base 10) =  101010 (base 2) // update S to this new value 42
