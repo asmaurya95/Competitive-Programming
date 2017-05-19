@@ -7,11 +7,11 @@ We start from 2, initially all numbers upto N unmarked.Then , if a number is unm
 
 1. Take an array , arr[N] = {0} //All unmarked
 2. Run Loop, for i from 2 to square_root(N) : 
-3.    if arr[i] equals 0 :
-4.       Run Loop, for j from 2 to N :
-5.                      if i*j > N :
-6.                          ( Break this Loop )
-7.                      arr[i*j] = 1 // Every multiple is marked composite
+3. if arr[i] equals 0 :
+4. Run Loop, for j from 2 to N :
+5. if i*j > N :
+6. ( Break this Loop )
+7. arr[i*j] = 1 // Every multiple is marked composite
 
 ## Problems with this method
 
