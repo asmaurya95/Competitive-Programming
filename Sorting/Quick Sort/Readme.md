@@ -8,7 +8,7 @@ The idea is to break the the array into an non-overlapping set of elements (sub-
   
 ## Time Complexity
 
-
+One way to look at it that, we are partitioning the array into two parts each time, resulting into O(logn) partition steps ,in  average case/best case and O(n) partition steps in worst case, when all the elements are on one side of randomly chosen pivot. We observe that each of these partition steps has O(n) elements to be sorted. Hence, 
 
 Best Case: O(nlogn)
 
