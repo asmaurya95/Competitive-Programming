@@ -19,3 +19,8 @@ Worst Case: O(n^2)
 ## Space Complexity
 
 Quick Sort has a space complexity of O(logn)  
+
+## Comparision with Merge Sort
+
+Is Quick Sort faster or slower than Merge Sort ?
+To know, visit watch https://www.youtube.com/watch?v=es2T6KY45cA
